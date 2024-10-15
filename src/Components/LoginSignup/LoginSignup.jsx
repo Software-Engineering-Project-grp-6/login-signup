@@ -3,7 +3,6 @@ import './LoginSignup.css';
 import user_icon from '../Assets/person.png';
 import email_icon from '../Assets/email.png';
 import password_icon from '../Assets/password.png';
-import Username_icon from "../Assets/username-1-512.png";
 import website_icon from "../Assets/website.png";
 
 export const LoginSignup = () => {
@@ -17,7 +16,7 @@ export const LoginSignup = () => {
     </div>
     <div className="inputs">
     {action==="Login"?<>    <div>
-                                <img src={Username_icon} alt="Username" />
+                                <img src={user_icon} alt="Username" />
                                 <input type="pattern" placeholder="Username" /> 
                             </div>
                             <div>
@@ -28,7 +27,7 @@ export const LoginSignup = () => {
                           }
     {action==="Sign Up"?<>
                         <div>
-                            <img src={Username_icon} alt='Username' />
+                            <img src={user_icon} alt='Username' />
                             <input type='pattern' placeholder='Username' />
                         </div>
 
